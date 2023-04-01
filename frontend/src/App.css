@@ -1,0 +1,81 @@
+.login {
+  background-color: #214a80;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.login-dark form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #1e2833;
+  padding: 50px 50px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-dark h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #2980ef;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.login-dark form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #434a52;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+}
+
+.login-dark form .btn-primary {
+  background: #214a80;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+  width: 100%;
+}
+
+.login-dark form .btn-primary:hover,
+.login-dark form .btn-primary:active {
+  background: #214a80;
+  outline: none;
+}
+
+.login-dark form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.tableMain {
+  background-color: #214a80;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.tableMain table th {
+  padding: 15px 30px;
+}
